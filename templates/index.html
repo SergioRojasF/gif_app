@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>GIF search</title>
+        
+        <!-- Bootstrap 4 CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css">
+    </head>
+    <body>
+        
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-static-top navbar-dark bg-inverse">
+            <div class="container">
+                <a class="navbar-brand" href="/">Python Project</a>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1>The GIF Search Engine</h1>
+                <p>Welcome to the most amazing GIF search engine in the world. Look up your favorite GIFs by typing the keywords in the box below:</p>
+                <form action="/results" class="form-inline">
+	                <div class="form-group">
+	                	<input type="text" name="term" placeholder="Enter keywords here" class="form-control">
+	                </div>
+	                <input type="submit" value="Submit" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+
+        
+    </body>
+</html>
