@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+import os
 import giphypop
 app = Flask(__name__)
 
@@ -25,4 +26,5 @@ def results():
 	except AssertionError:
 		return render_template('index.html')
 
-app.run(debug=True)
+port = int(os.environ.get("PORT", 5000))
+app.run(host="0.0.0.0", port=port)
