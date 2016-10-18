@@ -1,5 +1,5 @@
-# Intro to Programming with Python
+# GIF Search Engine
 
-This is a sample application
+This application helps people find gifs related to their searches.
 
-by [Sergio Rojas](http://www.emol.com)
+by [Sergio Rojas and Jason Thai](https://cbs-ipp-g14-2.herokuapp.com/)
